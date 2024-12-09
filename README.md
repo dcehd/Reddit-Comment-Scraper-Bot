@@ -25,7 +25,7 @@ We are going to use PRAW to build our Reddit bot. Let's go!
 - Select between web app, installed app or script. For this case, we're using a script
 - Briefly describe your bot
 - about url - This is a link where people can learn more about your bot. You can leave this blank if you don't have one.
-- redirect url- This is the URL where users will be sent after they log in to Reddit to use your app. Since our script is locally hosted, we use "http://localhost/" to send us back to our own computer.
+- redirect url- This is the URL where users will be sent after they log in to Reddit to use your app. Since our script is locally hosted, we use http://localhost/ to send us back to our own computer.
 4. Click create app
 5. After that, you'll get your client id and secret to be used in praw.
 
