@@ -21,12 +21,12 @@ We are going to use PRAW to build our Reddit bot. Let's go!
 1. Go to Reddit's [App Preferences](https://www.reddit.com/prefs/apps) page.
 2. Click "Are you a developer? Create an app..."
 3. Fill out the following:
-- Give your bot a name
-- Select between web app, installed app or script. For this case, we're using a script
-- Briefly describe your bot
+- Give your bot a name.
+- Select between web app, installed app or script. For this case, we're using a script.
+- Briefly describe your bot.
 - about url - This is a link where people can learn more about your bot. You can leave this blank if you don't have one.
 - redirect url- This is the URL where users will be sent after they log in to Reddit to use your app. Since our script is locally hosted, we use http://localhost/ to send us back to our own computer.
-4. Click create app
+4. Click create app.
 5. After that, you'll get your client id and secret to be used in praw.
 
 ------------------------------------------------------------------------------------------
@@ -64,13 +64,13 @@ sub = reddit.submission(url=url_of_post)
 
 Note:
 
-`limit=None` - Removes every instance of "Load more comments"
+`limit=None` - Removes every instance of "Load more comments".
 
-`limit=0` - Removes the first instance of "Load more comments"
+`limit=0` - Removes the first instance of "Load more comments".
 
-`limit=1` - Removes the first 2 instances of "Load more comments"
+`limit=1` - Removes the first 2 instances of "Load more comments".
 
-`limit=10` - Removes the first 10 instances of "Load more comments" (if it has up to that)
+`limit=10` - Removes the first 10 instances of "Load more comments" (if it has up to that).
 
 ------------------------------------------------------------------------------------------
 ### Print the first 10 comments in a numbered list
