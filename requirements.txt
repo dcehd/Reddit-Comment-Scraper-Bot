@@ -1,0 +1,5 @@
+Requirements
+1. Python 3.8 or higher
+2. A Reddit account
+3. Reddit API credentials (Client ID, Secret, and User Agent)
+4. praw 7.8 or higher
