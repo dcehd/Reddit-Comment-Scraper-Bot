@@ -3,9 +3,9 @@ import praw
 
 # Authenticate with the following credentials
 reddit = praw.Reddit(
-        client_id="[Put client id here]",
-        client_secret="[Put client secret here]",
-        user_agent="[Insert bot name here] by /u/[your username]"
+    client_id="[Put client id here]",
+    client_secret="[Put client secret here]",
+    user_agent="[Insert bot name here] by /u/[your username]"
 )
 
 # Fetch the post
