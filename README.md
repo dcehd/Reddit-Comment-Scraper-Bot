@@ -124,6 +124,8 @@ for index, comment in enumerate(sub.comments.list()[:10], start=1):
     print(f"{index} - {comment.body}")
 
 ```
+---
+[Video assistance here to show you how to set up your bot and what the results look like.](https://www.linkedin.com/pulse/build-your-own-reddit-comment-scraper-praw-daniel-e-gkkif/?trackingId=%2F4ZjxXHpSZKGhWudcWcRxg%3D%3D)
 
 ---
 
